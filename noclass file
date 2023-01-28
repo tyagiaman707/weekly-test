@@ -1,0 +1,10 @@
+package org.example;
+
+public class NoClass extends RuntimeException{
+    public NoClass() {
+        super();
+    }
+    public NoClass(String message) {
+        super(message);
+    }
+}
